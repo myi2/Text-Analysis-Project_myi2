@@ -1,4 +1,4 @@
-# Text-Analysis-Project: Insightful Movie Reviews: NLP Analysis of Movie Critiques
+# Text-Analysis-Project: Insightful Movie Reviews - NLP Analysis of Movie Critiques
  
 Please read the [instructions](instructions.md).
 
