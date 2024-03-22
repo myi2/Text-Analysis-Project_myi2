@@ -12,10 +12,10 @@ The movie reviews were sourced using the Cinemagoer API, a Python library that i
 
 At a high level, the project was implemented through a pipeline consisting of several major components:
 
--**Data Preparation and Cleaning:** Text data was read from a file and cleaned to remove punctuation and stopwords. This step was crucial for accurate frequency analysis and sentiment analysis later on.
--**Tokenization and Frequency Analysis:** The cleaned text was tokenized into words and analyzed for frequency distribution, identifying the most commonly used words in the reviews.
--**TF-IDF Calculation:** I calculated the Term Frequency-Inverse Document Frequency (TF-IDF) scores to understand the importance of words across documents.
--**Sentiment Analysis:** Utilizing NLTK's Sentiment Intensity Analyzer, I performed sentiment analysis on each review, providing a compound score to gauge the overall sentiment.
+- **Data Preparation and Cleaning:** Text data was read from a file and cleaned to remove punctuation and stopwords. This step was crucial for accurate frequency analysis and sentiment analysis later on.
+- **Tokenization and Frequency Analysis:** The cleaned text was tokenized into words and analyzed for frequency distribution, identifying the most commonly used words in the reviews.
+- **TF-IDF Calculation:** I calculated the Term Frequency-Inverse Document Frequency (TF-IDF) scores to understand the importance of words across documents.
+- **Sentiment Analysis:** Utilizing NLTK's Sentiment Intensity Analyzer, I performed sentiment analysis on each review, providing a compound score to gauge the overall sentiment.
 
 A significant design decision involved choosing between a simple frequency analysis and integrating TF-IDF for word importance. I opted to include both, as frequency analysis highlights common words, while TF-IDF offers insight into each review's unique words.
 
