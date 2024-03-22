@@ -1,8 +1,6 @@
-# Text-Analysis-Project
+# Text-Analysis-Project: Insightful Movie Reviews: NLP Analysis of Movie Critiques
  
 Please read the [instructions](instructions.md).
-
-Insightful Movie Reviews: NLP Analysis of Movie Critiques
 
 In this project, I focused on analyzing a dataset of movie reviews to uncover insights through text analysis, sentiment analysis, and frequency distribution of words. Using Natural Language Processing (NLP) techniques and tools such as NLTK and scikit-learn, I aimed to process and analyze the data to understand common themes, sentiments, and the significance of certain words within the reviews. The goal was to create a system that could provide a deeper understanding of the textual data, helping in sentiment analysis and identifying key trends in movie reviews.
 
